@@ -1,27 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama appversion="6.0.3" apprev="17298" hideabout="1" id="node1">
-  <input levelbiashidpi="1.000" levelingpitch="0" height="6121" width="6121" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400">
-    <level preload="0" predecode="0" height="6121" width="6121"/>
-    <level preload="0" predecode="0" height="3060" width="3060"/>
-    <level preload="0" predecode="0" height="1530" width="1530"/>
-    <level preload="0" predecode="0" height="765" width="765"/>
-    <level preload="1" predecode="1" height="382" width="382"/>
-    <preview color="0x808080" strip="1"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="0" projection="4" fov="70" pan="0"/>
-    <flyin tilt="-90" projection="9" fov="170" pan="0"/>
-    <min tilt="-90" fovpixel="2" pan="0"/>
-    <max tilt="90" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270" pan="360"/>
-  </view>
-  <userdata datetime="2019/4/10 12:25" title="" author="" longitude="" comment="" customnodeid="" info="" copyright="" tags="quanjingtu2" latitude="" source="" description=""/>
-  <hotspots wordwrap="1" height="20" width="180">
-    <label textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" width="180" backgroundalpha="1" borderradius="1" border="1" background="1" borderalpha="1"/>
-    <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-  </hotspots>
-  <media/>
-  <transition blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" softedge="0"/>
-  <autorotate startloaded="0" noderandom="1" delay="5.00" speed="0.400" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0"/>
-  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-  <control rubberband="0" sensitivity="8" lockedkeyboard="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" invertcontrol="1" dblclickfullscreen="0" contextprojections="0" simulatemass="1"/>
-</panorama>
+<tour appversion="6.0.3" apprev="17298" start="node1">
+  <panorama hideabout="1" id="node1">
+    <input levelbiashidpi="1.000" levelingpitch="0" height="6121" width="6121" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400">
+      <level preload="0" predecode="0" height="6121" width="6121"/>
+      <level preload="0" predecode="0" height="3060" width="3060"/>
+      <level preload="0" predecode="0" height="1530" width="1530"/>
+      <level preload="0" predecode="0" height="765" width="765"/>
+      <level preload="1" predecode="1" height="382" width="382"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="70" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata datetime="2019/4/10 12:25" title="" author="" longitude="" comment="" customnodeid="" info="" copyright="" tags="quanjingtu2" latitude="" source="" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" width="180" backgroundalpha="1" borderradius="1" border="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot tilt="6.16" title="下一个地点" target="-130.4/-0.3/70.0" id="Point01" skinid="ht_node" description="附近的风景" pan="-200.36" url="{node2}"/>
+      <hotspot tilt="4.17" title="前往原处(失败)" target="-2.0/5.3/70.0" id="Point02" skinid="ht_node" description="前往原处，失败的一次。。" pan="-157.83" url="{node3}"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" softedge="0"/>
+    <autorotate startloaded="1" noderandom="1" delay="4.00" speed="0.200" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" sensitivity="8" lockedkeyboard="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" invertcontrol="1" dblclickfullscreen="1" contextprojections="0" simulatemass="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input levelbiashidpi="1.000" levelingpitch="0" height="6455" width="6455" overlap="1" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400">
+      <level preload="0" predecode="0" height="6455" width="6455"/>
+      <level preload="0" predecode="0" height="3227" width="3227"/>
+      <level preload="0" predecode="0" height="1613" width="1613"/>
+      <level preload="0" predecode="0" height="806" width="806"/>
+      <level preload="1" predecode="1" height="403" width="403"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="70" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata datetime="2019/4/1 17:02" title="" author="" longitude="" comment="" customnodeid="" info="" copyright="" tags="try_3" latitude="" source="" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" width="180" backgroundalpha="1" borderradius="1" border="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot tilt="9.87" title="回到学校" target="-143.2/7.6/70.0" id="Point01" skinid="ht_node" description="" pan="-325.51" url="{node1}"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" softedge="0"/>
+    <autorotate startloaded="1" noderandom="1" delay="4.00" speed="0.200" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" sensitivity="8" lockedkeyboard="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" invertcontrol="1" dblclickfullscreen="1" contextprojections="0" simulatemass="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input levelbiashidpi="1.000" levelingpitch="0" height="4921" width="4921" overlap="1" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbias="0.400">
+      <level preload="0" predecode="0" height="4921" width="4921"/>
+      <level preload="0" predecode="0" height="2460" width="2460"/>
+      <level preload="0" predecode="0" height="1230" width="1230"/>
+      <level preload="0" predecode="0" height="615" width="615"/>
+      <level preload="1" predecode="1" height="307" width="307"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" fov="70" pan="0"/>
+      <flyin tilt="-90" projection="9" fov="170" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" scaletofit="1" fovfisheye="360" fov="120" fovstereographic="270" pan="360"/>
+    </view>
+    <userdata datetime="2019/4/8 18:17" title="" author="" longitude="116.339252" comment="" customnodeid="" info="" copyright="" tags="quanjingtu" latitude="39.999743" source="" description=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textcolor="0x000000" backgroundcolor="0xffffff" textalpha="1" bordercolor="0x000000" wordwrap="1" height="20" enabled="1" width="180" backgroundalpha="1" borderradius="1" border="1" background="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot tilt="13.36" title="返回原处(成功的)" target="-142.6/1.6/70.0" id="Point01" skinid="ht_node" description="返回较为成功的那一张。。" pan="-353.65" url="{node1}"/>
+    </hotspots>
+    <media/>
+    <transition blendtime="1" zoomout="0" blendcolor="0x000000" zoomoutpause="1" enabled="1" zoomfov="20" zoomin="0" type="crossdissolve" zoomspeed="2" softedge="0"/>
+    <autorotate startloaded="1" noderandom="1" delay="4.00" speed="0.200" enabled="1" returntohorizon="0.000" nodedelay="0.00" useanimation="0"/>
+    <soundstransition crossfade="0" transitiontime="2" enabled="1"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control rubberband="0" sensitivity="8" lockedkeyboard="0" lockedwheel="0" lockedkeyboardzoom="0" hideabout="1" contextfullscreen="1" invertwheel="0" speedwheel="1" lockedmouse="0" invertcontrol="1" dblclickfullscreen="1" contextprojections="0" simulatemass="1"/>
+  </panorama>
+  <masternode>
+    <userdata datetime="" title="" author="" longitude="" comment="" customnodeid="" info="" copyright="" tags="" latitude="" source="" description=""/>
+  </masternode>
+</tour>
